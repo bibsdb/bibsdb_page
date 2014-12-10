@@ -1,0 +1,17 @@
+name = Bibsdb Page
+core = 7.x
+package = Bibsdb
+dependencies[] = ding_page
+features[features_api][] = api:2
+features[features_override_items][] = variable.node_options_ding_page
+features[features_override_items][] = variable.pathauto_node_ding_page_pattern
+features[features_overrides][] = field_instance.node-ding_page-field_ding_page_list_image.display|search_result|settings|image_link
+features[features_overrides][] = field_instance.node-ding_page-field_ding_page_list_image.display|search_result|settings|styles|breakpoint_1
+features[features_overrides][] = field_instance.node-ding_page-field_ding_page_list_image.display|search_result|settings|styles|breakpoint_2
+features[features_overrides][] = field_instance.node-ding_page-field_ding_page_list_image.display|search_result|settings|styles|fallback_style
+features[features_overrides][] = field_instance.node-ding_page-field_ding_page_list_image.display|search_result|settings|styles|max_style
+features[features_overrides][] = field_instance.node-ding_page-field_ding_page_list_image.display|search_result|settings|styles|style_1
+features[features_overrides][] = field_instance.node-ding_page-field_ding_page_list_image.display|search_result|settings|styles|style_2
+features[features_overrides][] = variable.node_options_ding_page.value|0
+features[features_overrides][] = variable.pathauto_node_ding_page_pattern.value
+project path = sites/default/modules
