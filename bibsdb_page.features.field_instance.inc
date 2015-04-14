@@ -19,9 +19,8 @@ function bibsdb_page_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'link_field_redirect',
         'settings' => array(),
-        'type' => 'link_field_redirect',
+        'type' => 'hidden',
         'weight' => 12,
       ),
       'search_result' => array(
